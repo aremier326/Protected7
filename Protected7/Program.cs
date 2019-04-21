@@ -6,10 +6,27 @@ using System.Threading.Tasks;
 
 namespace Protected7
 {
-    class Program
+    partial class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        //static void Main(string[] args)
+        //{
+        //    IDemo[] a = new IDemo[4];
+
+        //    a[0] = new DemoPoint(0, 1);
+        //    a[1] = new DemoPoint(-3, 0);
+        //    a[2] = new DemoShape(3, 4, 0);
+        //    a[3] = new DemoShape(0, 5, 6);
+
+        //    foreach (var x in a)
+        //    {
+        //        x.Show();
+        //        Console.WriteLine($"Dlina = {x.Dlina():f2}");
+        //        Console.WriteLine($"x={x.X}");
+        //        x[1] += x[0];
+        //        Console.WriteLine("New cordinates - ");
+        //        x.Show();
+        //        Console.WriteLine();
+        //    }
+        //}
     }
 }
